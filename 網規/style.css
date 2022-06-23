@@ -1,0 +1,293 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.heroimg {
+    background: url(heroimg.jpg) no-repeat fixed center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.slog1 {
+    color: rgb(77, 211, 68);
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    top: 145%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 15px rgba(177, 176, 176, 0.903)
+}
+
+.slog2 {
+    color: rgb(77, 211, 68);
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    top: 145%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 15px rgba(177, 176, 176, 0.903)
+    
+}
+
+.header {
+    background: rgba(123, 255, 105, 0.6);
+    padding: 20px 50px;
+    position: absolute;
+    top: 18%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+.bt {
+    font-size: 28px;
+    color: rgb(79, 223, 66);
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    margin: 1220px auto 0;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    background: rgba(255, 249, 141, 0.4);
+}
+
+.bt:hover {
+    background: rgb(79, 223, 66);
+    color: rgb(255, 255, 255);
+}
+
+ .content {
+     width: 1000px;
+     margin: 100px auto;
+     display: flex;
+ }
+ .photo1, .text1 {
+     flex-basis: 50%;
+     flex-grow: 1;
+     min-width: 50%;
+ }
+
+ h1 {
+    position: absolute;
+    top: 100%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: black;
+ }
+
+ h1:hover {
+    color: rgb(79, 223, 66);
+ }
+
+ p {
+    font-size: 20px;
+    position: absolute;
+    top: 175%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: black;
+ }
+
+ p:hover {
+    color: rgb(79, 223, 66);
+ }
+
+ .pic01 {
+    width: 200px;
+    position: absolute;
+    top: 144%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.pic01:hover {
+    -webkit-transform: scaleX(-5);
+    transform: scaleX(-1);
+}
+
+.pic02 {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.pic02:hover {
+    filter: grayscale(100%);
+}
+
+.pic03 {
+    width: 200px;
+    position: absolute;
+    top: 75%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.pic03:hover {
+    filter: blur(3px);
+}
+
+.pic04 {
+    width: 200px;
+    position: absolute;
+    top:75%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+
+.pic04:hover {
+    filter: hue-rotate(80deg);
+}
+
+.pic05 {
+    width: 200px;
+    position: absolute;
+    top:107%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+}
+
+.pic05:hover {
+    filter: invert(90%);
+}
+
+.pic06 {
+    width: 200px;
+    position: absolute;
+    top:107%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+}
+
+.pic06:hover {
+    filter: opacity(40%);
+}
+
+.pic07 {
+    width: 200px;
+    position: absolute;
+    top:144%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.pic07:hover {
+    filter: saturate(3);
+}
+
+.pic08 {
+    width: 200px;
+    position: absolute;
+    top:144%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+}
+
+.pic08:hover {
+    filter: sepia(100%);
+}
+
+.pic09 {
+    width: 200px;
+    position: absolute;
+    top:183%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+}
+
+.pic09:hover {
+    filter: grayscale(100%);
+}
+
+.pic10 {
+    width: 200px;
+    position: absolute;
+    top:183%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+}
+
+.pic10:hover {
+    filter: blur(5px);
+}
+
+.pic11 {
+    width: 200px;
+    position: absolute;
+    top:217%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.pic11:hover {
+    filter: drop-shadow(8px 8px 10px rgb(85, 85, 85));
+}
+
+.pic12 {
+    width: 200px;
+    position: absolute;
+    top:217%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+
+.pic12:hover {
+    filter: invert(110%);
+}
+
+.pic13 {
+    width: 200px;
+    position: absolute;
+    top:243%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.pic13:hover {
+    filter: opacity(60%)
+}
+
+.pic14 {
+    width: 200px;
+    position: absolute;
+    top:144%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+}
+
+.pic15 {
+    width: 200px;
+    position: absolute;
+    top:144%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.pic15:hover {
+    -webkit-transform: scaleX(-5);
+    transform: scaleX(-1);
+}
+
+.pic16 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
